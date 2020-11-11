@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+<PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+</PropertyGroup>
+
+<ItemGroup>
+  <None Remove="Rsc\js\cloudtranslation.js" />
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+</ItemGroup>
+
+<ItemGroup>
+  <TypeScriptCompile Include="Rsc\js\cloudtranslation.js" />
+</ItemGroup>
+	
+</Project>

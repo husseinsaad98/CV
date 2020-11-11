@@ -1,0 +1,124 @@
+[
+    {
+        "o": "RESUME",
+        "t": "الخلاصة"
+    },
+    {
+        "o": "Beirut, Haret Hreik, Baabda District",
+        "t": "بيروت ، حارة حريك ، قضاء بعبدا"
+    },
+    {
+        "o": "PROFILE",
+        "t": "الملف الشخصي"
+    },
+    {
+        "o": "I am an enterprising young professional intending to continue my development in the field of IT I think in terms of results and objectives, I am enthusiastic, I am a fast learner and put all my effort to have my job done in the best possible way. I am currently looking for an internship in my field. With several years of working gained experience in customer services and business operation and managing inventory.",
+        "t": "أنا شاب محترف مغامر وأعتزم مواصلة تطوري في مجال تكنولوجيا المعلومات على ما أعتقد من حيث النتائج والأهداف ، أنا متحمس ، أنا متعلم سريع وأبذل قصارى جهدي لإنجاز عملي بأفضل طريقة ممكنة. أنا أبحث حاليًا عن تدريب داخلي في مجالي. مع عدة سنوات من العمل اكتسبت خبرة في خدمات العملاء والعمليات التجارية وإدارة المخزون."
+    },
+    {
+        "o": "TECHNICAL SKILLS",
+        "t": "مهارات تقنية"
+    },
+    {
+        "o": "Basic skills in Back-end Web development after learning PHP using Laravel Framework.",
+        "t": "المهارات الأساسية في تطوير الويب الخلفي بعد تعلم PHP باستخدام Laravel Framework."
+    },
+    {
+        "o": "Recently since the pandemic occurred I have been working on Unity Game Engine developing games using C# Programing Language nothing yet has been published I have one unfinished project. Another project will be in development soon I will be making sure it’s a fully developed game ready to be published.",
+        "t": "في الآونة الأخيرة منذ حدوث الوباء ، كنت أعمل على تطوير ألعاب Unity Game Engine باستخدام لغة C # Programing ، ولم يتم نشر أي شيء حتى الآن. لدي مشروع واحد غير مكتمل. مشروع آخر قيد التطوير قريبًا وسأحرص على أن تكون لعبة مطورة بالكامل وجاهزة للنشر."
+    },
+    {
+        "o": "PROJECTS",
+        "t": "مشاريع"
+    },
+    {
+        "o": "Manage and lead a team of employees.",
+        "t": "إدارة وقيادة فريق من الموظفين."
+    },
+    {
+        "o": "Manages inventories and stock, including keeping detailed records of inventory use and sales, and advising management on ordering where necessary.",
+        "t": "يدير المخزون والمخزون ، بما في ذلك الاحتفاظ بسجلات مفصلة لاستخدام المخزون والمبيعات ، وتقديم المشورة للإدارة بشأن الطلب عند الضرورة."
+    },
+    {
+        "o": "Generates and shares comprehensive and detailed reports about team performance, mission-related objectives.",
+        "t": "يولد ويشارك تقارير شاملة ومفصلة حول أداء الفريق والأهداف المتعلقة بالمهمة."
+    },
+    {
+        "o": "Customer enquiries, and effectively handling customer complaints.",
+        "t": "استفسارات العملاء والتعامل الفعال مع شكاوى العملاء."
+    },
+    {
+        "o": "Provides encouragement to team members, including communicating team goals.",
+        "t": "يوفر التشجيع لأعضاء الفريق ، بما في ذلك توصيل أهداف الفريق."
+    },
+    {
+        "o": "EDUCATION",
+        "t": "التعليم"
+    },
+    {
+        "o": "BT, Information Technology",
+        "t": "BT, تكنولوجيا المعلوماتية"
+    },
+    {
+        "o": "TS, Administrative Informatics",
+        "t": "TS, معلوماتية ادارية"
+    },
+    {
+        "o": "CAREER SUMMARY",
+        "t": "ملخص الوظيفي"
+    },
+    {
+        "o": "June 2017 present Safa trading company, Team leader",
+        "t": "يونيو 2017 - الحاضر شركة الصفا التجارية ، قائد الفريق"
+    },
+    {
+        "o": "LWAH Graduation Project",
+        "t": "مشروع التخرج LWAH"
+    },
+
+    {
+        "o": "Learned C# programing language using Unity Game Engine.",
+        "t": "تعلمت لغة البرمجة C # باستخدام Unity Game Engine."
+    },
+    {
+        "o": "Experience in MySQL Command Line.",
+        "t": "   خبرة في MySQL Command Line."
+    },
+    {
+        "o": "Familiar with Android Studio GUI (JAVA).",
+        "t": "مألوف مع Android Studio GUI (JAVA)."
+    },
+    {
+        "o": "A program made to facilitate Lebanese Welfare Association for the Handicapped work. Programed with vb.net programing language.",
+        "t": "برنامج لتسهيل عمل المؤسسة اللبنانية لرعاية المعاقين. مبرمج بلغة البرمجة vb.net."
+    },
+    {
+        "o": "Al Afak Institute 2014-2015-2016",
+        "t": "معهد الافاق 2014-2015-2016"
+    },
+    {
+        "o": "Al Afak Institute, 2017-2018",
+        "t": "معهد الافاق 2017-2018"
+    },
+    {
+        "o": "70736859",
+        "t": "٧٠٧٣٦٨٥٩"
+    },
+    {
+        "o": "Hussein Saad",
+        "t": " حسين سعد"
+    },
+    
+    {
+        "o": "E-mail:",
+        "t": "البريد :"
+    },
+    {
+        "o": "Phone number:",
+        "t": "رقم الهاتف:"
+    },
+    {
+        "o": "Addres:",
+        "t": "العنوان:"
+    }
+]

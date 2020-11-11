@@ -1,0 +1,32 @@
+{
+    "builds": [
+        {
+            "name": "dev",
+            "css": {
+                "minify": true,
+                "sourceMap": false
+            },
+            "js": {
+                "minify": true,
+                "declaration": false,
+                "sourceMap": false,
+                "webclean": true
+            }
+        }
+    ],
+    "files":  
+    [
+        {
+            "output": "wwwroot/css/site.css",
+            "input": "Rsc/css/site.less"
+        },
+        {
+            "output": "wwwroot/js/site.js",
+            "input": [ "Rsc/js/cloudtranslation.js","Rsc/js/site.ts" ]
+        },
+        {
+            "output": "wwwroot/image/image.jpg",
+            "input": "Rsc/content/image.jpg"
+        }
+     ]
+}
