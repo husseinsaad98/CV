@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Roboto-light;
+  src: url('../image/Roboto-Thin.ttf');
+}
 html,
 body {
   margin: 0;
@@ -7,16 +11,24 @@ body {
 header > div {
   color: #fff;
   font-weight: initial;
+  font-family: Roboto-light;
   background-color: #081C3E;
-  display: flex;
-  align-items: flex-end;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10px;
+  grid-template-areas: "name name" "title ." ". select";
 }
 header > div h1 {
-  margin-left: 30%;
+  grid-area: name;
   font-weight: lighter;
+  margin-bottom: 0px;
 }
-header > div select {
+header > div p {
+  margin-top: 0px;
+  grid-area: title;
+}
+header > div div {
+  grid-area: select;
   margin-bottom: 5px;
 }
 main .summary {
@@ -30,16 +42,13 @@ main .summary img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20%;
   max-width: 300px;
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-main .summary ul {
-  list-style: none;
+  max-height: 300px;
 }
 main .summary label {
   font-weight: bold;
+  margin: 5px;
   background-position-x: initial;
 }
 main > .maincontent {
@@ -54,24 +63,26 @@ main > .maincontent p {
   padding-left: 20px;
 }
 main > .maincontent h3 {
-  font-weight: normal;
+  font-family: Roboto-light;
 }
 @media (min-width: 600px) {
   header > div {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 30px;
-    align-items: center;
+    font-size: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
+    grid-template-areas: ". name name" ". title ." ". . select";
   }
   main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "first second";
+  }
+  main .maincontent {
+    grid-area: second;
   }
   main .summary {
+    grid-area: first;
     text-align: initial;
-  }
-  main .summary ul {
-    margin: 0px;
-    padding: 0px;
   }
 }
 @media (min-width: 930px) {
@@ -79,7 +90,19 @@ main > .maincontent h3 {
     background-color: #D3D3D3;
   }
   main .summary {
-    height: 500px;
+    font-family: Roboto-light;
+    height: 600px;
+    background-color: #2b3a51;
+    color: #fff;
+  }
+  main .summary h3 {
+    text-decoration: underline;
+  }
+  main .summary i {
+    margin: 5px;
+  }
+  main .maincontent {
+    background-color: #fff;
   }
   main .summary,
   main .maincontent {
@@ -87,11 +110,24 @@ main > .maincontent h3 {
     box-shadow: 4px 4px 8px #000000, 4px 6px 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin: 20px;
-    background-color: #FFF;
   }
   main .education {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
+    display: grid;
+    width: 4fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "first second";
+  }
+  main .education-first {
+    grid-area: first;
+  }
+  main .education-second {
+    grid-area: second;
+  }
+}
+@media (min-width: 1200px) {
+  main .education {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "first second .";
   }
 }
